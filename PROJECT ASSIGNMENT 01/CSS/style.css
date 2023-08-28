@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+
+body{
+    /* height: 100vh; */
+    /* width: 100vw; */
+    background-image: url(./ASSET/pexels-maxyne-barcel-10402282\ 1.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: cover;
+}
+li {
+    list-style: none;
+    cursor: pointer;
+}
+.top-button{
+    background-color: red;
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    /* border-radius: 5px; */
+    font-weight: 800;
+    width: fit-content;
+    padding: 15px;
+    font-family: "Red Rose";
+
+
+}
+.menu-button{
+    font-size: 1.6rem;
+    padding: 20px;
+    background-color: red;
+    color: #fff;
+    border: 0;
+    font-weight: 800;
+    font-family: "Red Rose";
+}
+
+
+button:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+/* button.bottom-button{
+    justify-content: space-around;
+    align-items: center;
+    display: flex; */
+
+}
+nav .logo {
+    font-weight: 700;
+    font-size: 30px;
+}
+nav{
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Red Rose";
+    color: #ffc233;
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 900;
+    font-family: "Red Rose";
+    color: #ffc233;
+
+}
+nav ul li:hover{
+    text-decoration: wavy;
+    font-weight: 1000;
+} 
+section {
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    margin-top: 50px;
+}
+h1{
+    font-size: 105px;
+    font-weight: 1000px;
+    font-family: "Red Rose";
+    color: #ffc233;
+}
+div{
+    text-align: center;
+    /* justify-content: center; */
+    
+}
+footer {
+    padding-inline-start: 1400px;
+    /* display: flex; */
+    /* align-items: flex-end; */
+    /* padding: 0 0 0 80px; */
+    /* justify-content: space-around; */
+}
+.footerimg {
+    float: right;
+}
